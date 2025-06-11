@@ -29,10 +29,7 @@ class Urls {
 
   static const String subdlBase = 'https://api.subdl.com';
   static const String subdlDownloadBase = 'https://dl.subdl.com';
-  static const String subtitles = '$subdlBase/api/v1/subtitles';
-
-  static const String github = 'https://github.com/moses-mbaga/semo';
-  static const String mosesGithub = 'https://github.com/moses-mbaga';
+  static const String subtitles = '$subdlBase/api/v1/subtitles'; 
 
   static String getMovieDetails(int id) => '$tmdbBase/movie/$id';
   static String getTvShowDetails(int id) => '$tmdbBase/tv/$id';
